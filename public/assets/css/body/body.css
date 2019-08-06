@@ -1,0 +1,17 @@
+.body_title1{
+    background: url('../../img/artificial-background-color-958168.jpg');
+    text-align: center;
+    font-size: 300%;
+    vertical-align: middle;
+    color: darkgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.body_text_position{
+    margin: 5% 15% 5% 15%;
+    text-align: justify;
+    text-align-last: left;
+}

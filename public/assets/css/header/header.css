@@ -1,0 +1,91 @@
+@font-face{
+    font-family: moon;
+    src: url('MADE_Canvas_Light_PERSONAL_USE.otf');
+}
+html{
+    
+    height: 100%;
+    color: rgb(0, 0, 0);
+}
+a:link {
+    color: rgb(0, 0, 0);
+    }
+    a:visited {
+    color: #4B4B4B ;
+    }
+    a:hover {
+    color: #4B4B4B;
+    text-decoration: none;
+    }
+@media (min-width: 768px) {
+    .view {
+        overflow: visible;
+        /* margin-top: -56px; */
+    }
+}
+.navbar {
+    z-index: 1;
+}
+.navbar {
+    background-color: transparent;
+}
+.top-nav-collapse {
+    background-color: #4285F4;
+}
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #4285F4;
+    }
+}
+
+.view {
+    /* background: url("https://mdbootstrap.com/img/Photos/Others/img (42).jpg"); */
+    background: url("../../img/background-blur-blurred-255377.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+.searchbar{
+margin-bottom: auto;
+margin-top: auto;
+height: 60px;
+background-color: #353b48;
+border-radius: 30px;
+padding: 10px;
+}
+
+.search_input{
+color: white;
+border: 0;
+outline: 0;
+background: none;
+width: 0;
+caret-color:transparent;
+line-height: 40px;
+transition: width 0.4s linear;
+}
+
+.searchbar:hover > .search_input{
+padding: 0 10px;
+width: 450px;
+caret-color:red;
+transition: width 0.4s linear;
+}
+
+.searchbar:hover > .search_icon{
+background: white;
+color: #e74c3c;
+}
+
+.search_icon{
+height: 40px;
+width: 40px;
+float: right;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+color:white;
+}
+
