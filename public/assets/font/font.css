@@ -2,3 +2,12 @@
     font-family: moon;
     src: url('MADE_Canvas_Light_PERSONAL_USE.otf');
 }
+@font-face{
+    font-family: "logo";
+    src: url('MADE_Canvas_Light_PERSONAL_USE.otf');
+    src: url('VTKS_CHOICE.ttf');
+}
+@font-face{
+    font-family: "IBM";
+    src: url('../font/IBM_Plex_Sans/IBMPlexSans-Light.ttf');
+}

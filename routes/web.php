@@ -19,3 +19,7 @@ Route::get('/', function () {
 Route::get('/home', function(){
     return view('home');
 });
+
+// Route::get('/blog1','BlogController@full_article');
+
+Route::name('blog1')->get('/blog1')->uses('BlogController@full_article');

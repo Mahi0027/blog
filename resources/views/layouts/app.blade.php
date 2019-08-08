@@ -5,7 +5,7 @@
     
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
-        <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+        
         <link href="{{ asset('assets/css/header/header.css') }}" rel="stylesheet">
         <link href="{{ asset('assets/css/footer/footer.css') }}" rel="stylesheet">
         <link href="{{ asset('assets/css/body/body.css') }}" rel="stylesheet">

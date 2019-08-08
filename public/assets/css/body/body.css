@@ -1,3 +1,8 @@
+@import url("../../font/font.css");
+div {
+    font-family: 'IBM';
+    color: black;
+}
 .body_title1{
     background: url('../../img/artificial-background-color-958168.jpg');
     text-align: center;
@@ -15,3 +20,31 @@
     text-align: justify;
     text-align-last: left;
 }
+
+.body_row{
+    border: solid 0px;
+    text-align: center;
+    margin: 3% 0% 2% 0%;
+}
+.body_pagination {
+    display: inline-block;
+    text-align: center;
+    border: solid 0px;
+  }
+  
+.body_pagination a {
+color: black;
+float: left;
+padding: 8px 16px;
+text-decoration: none;
+}
+
+.body_pagination a.active {
+background-color: #4CAF50;
+color: white;
+}
+.pagination a:hover{
+    background-color: #ddd;
+    font-size: 200%;
+}
+  

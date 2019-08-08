@@ -41,16 +41,16 @@
         </div>      
     </div>
     <hr>
-      
+    
         <!-- Call to action -->
     <ul class="list-unstyled list-inline text-left py-12" style="margin-left:14%;">
         <li class="list-inline-item">
             <form class="form-inline my-1 my-lg-2" >
-                <input class="form-control mr-sm-1" type="search" placeholder="Search" aria-label="Search">
+                <input class="form-control mr-sm-1" type="search" placeholder="Search" aria-label="Search" style="opacity:0.6;">
                 <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
             </form>
         </li>
-        <li class="list-inline-item" style="margin-left:39%;">
+        <li class="list-inline-item">
             <button type="button" class="btn btn-primary">Suggestion <i class="fa fa-shopping-basket" aria-hidden="true"></i></button>
         </li>
         <li class="list-inline-item">
